@@ -25,11 +25,11 @@
 ## 主要功能
 | 功能模块 |  |
 |----------|----------|
-| 全国法定传染病年度总发病数散点图 |  |
-| 法定传染病分类数据 |  |
-| 全国法定传染病年度报告 |  |
-| 传染病总发病数年度分布散饼图 |  |
-| 法定传染病按年度分类变化趋势图 |  |
+| 全国法定传染病年度总发病数散点图 | <img width="986" height="668" alt="image" src="https://github.com/user-attachments/assets/61197921-41d2-43d2-afce-aca9f50f0418" /> |
+| 法定传染病分类数据 | <img width="1364" height="785" alt="image" src="https://github.com/user-attachments/assets/1e9021c7-c402-4e52-a726-f0fde0d1c08a" /> |
+| 全国法定传染病年度报告 | <img width="475" height="263" alt="image" src="https://github.com/user-attachments/assets/abea12df-4333-4185-8344-ff86b904b1d1" /> |
+| 传染病总发病数年度分布散饼图 | <img width="439" height="460" alt="image" src="https://github.com/user-attachments/assets/84ff95d9-f2c3-4c8a-a60a-4ac03a4a05e9" /> |
+| 法定传染病按年度分类变化趋势图 | <img width="1871" height="755" alt="image" src="https://github.com/user-attachments/assets/79c057f6-cd4e-44c7-a3d4-a25dc1b12627" /> |
 ---
 
 ## 项目亮点
@@ -48,13 +48,15 @@
 ## 项目结构
 
 <p align="left">
-  <img width="314" height="178" alt="image" src="https://github.com/user-attachments/assets/b050b161-a18b-4ffa-8525-8fd230c4c97f" />
+  <img width="161" height="177" alt="image" src="https://github.com/user-attachments/assets/c785300f-2c06-40c9-be45-41e68629efd9" />
 </p>
 
 重要：存放项目的文件路径中不要有中文
 
 | 目录 | 说明 |
 | ---- | ---- |
-| view | 前端项目 |
-| api | 后端项目 |
-| persistent_chat | 数据库文件 |
+| index | HTML页面 |
+| css | CSS文件 |
+| js | JavaScript文件 |
+| images | 图片 |
+
