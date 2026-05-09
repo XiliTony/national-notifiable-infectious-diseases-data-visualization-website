@@ -1,0 +1,247 @@
+/*基础设置*/
+.container {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+/*顶部导航条start*/
+.topbar {
+    height: 30px;
+    background-color: #ECECEC;
+}
+.welcome {
+    height: 30px;
+    line-height: 30px;
+    font-size: 0;
+    color: #666;
+}
+.welcome span, .welcome a {
+    font-size: 12px;
+}
+.welcome .hello {
+    margin-right: 28px;
+}
+.welcome .login {
+    padding-right: 10px;
+    border-right: 1px solid #666;
+}
+.welcome .register {
+    padding-left: 10px;
+}
+/*顶部导航条end*/
+
+/*头部start*/
+.header {
+    height: 120px;
+}
+.header .search h1 {
+    margin-top: 42px;
+    font-size: 32px;
+}
+.logo img {
+    /*应用动画*/
+    animation-name: toright;
+    animation-duration: 5s;
+    animation-delay: 0.2s;
+}
+@keyframes toright {
+    from {
+
+    }
+    to {
+        transform: translate(550px);
+    }
+}
+/*头部end*/
+
+/*主导航start*/
+.main-nav {
+    height: 48px;
+    border-bottom: 1px solid #DD302D;
+}
+.all-types {
+    width: 190px;
+    height: 48px;
+    background-color: #DD302D;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    line-height: 48px;
+}
+.main-nav-list {
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+}
+.main-nav-list li {
+    float: left;
+    margin: 0 10px;
+}
+/*主导航end*/
+
+/*主要内容区start*/
+.main-content {
+    margin-top: 10px;
+}
+.main-content .aside-left {
+    width: 190px;
+    height: 458px;
+    background-color: #F4F4F4;
+}
+.main-content .aside-left li {
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    padding-left: 16px;
+}
+.main-content .aside-left li:hover {
+    background-color: #DD302D;
+}
+.main-content .aside-left li:hover>a {
+    color: white;
+}
+/*二级菜单*/
+.main-content .aside-left {
+    position: relative;
+}
+.second-menu {
+    width: 690px;
+    height: 458px;
+    background-color: #F4F4F4;
+    position: absolute;
+    top: 0;
+    left: 190px;
+    display: none;
+    padding-left: 20px;
+    z-index: 2;
+}
+.main-content .aside-left li:hover .second-menu {
+    display: block;
+}
+.second-menu dl {
+    height: 36px;
+    line-height: 36px;
+}
+.second-menu dt {
+    float: left;
+    font-weight: bold;
+    width: 70px;
+    margin-right: 10px;
+}
+.second-menu dd {
+    float: left;
+}
+.second-menu dd a {
+    padding: 0 10px;
+    border-left: 1px solid #999999;
+}
+.second-menu dl:first-child {
+    margin-top: 10px;
+}
+/*banner主图*/
+.main-content .banner {
+    width: 690px;
+    height: 458px;
+    margin: 0 10px;
+    z-index: 1;
+}
+/*右侧新闻*/
+.main-content .aside-right {
+    width: 290px;
+    height: 458px;
+}
+.aside-right .message {
+    width: 260px;
+    height: 156px;
+    border: 1px solid #D9D9D9;
+    padding: 0 14px;
+}
+.aside-right .message .title {
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 1px solid #D9D9D9;
+}
+.aside-right .message .title span {
+    font-size: 14px;
+}
+.aside-right .message .title a {
+    font-size: 12px;
+}
+.aside-right .msg-list {
+    height: 26px;
+    line-height: 26px;
+}
+.aside-right .other-nav {
+    width: 290px;
+    height: 290px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+/*楼层区start*/
+.floor {
+    margin-top: 48px;
+}
+.floor-nav {
+    height: 30px;
+    line-height: 30px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #DD302D;
+}
+.floor-name {
+    font-size: 20px;
+}
+.floor-nav-list li {
+    float: left;
+    font-size: 16px;
+}
+.floor-nav-list li a {
+    padding: 0 10px;
+    border-right: 1px solid #666666;
+}
+.floor-nav-list li:first-child a {
+    padding-left: 0;
+}
+.floor-nav-list li:last-child a {
+    padding-right: 0;
+    border: 0;
+}
+.floor-info {
+    height: 432px;
+}
+/*楼层区end*/
+
+/*页脚区start*/
+.footer {
+    height: 193px;
+    background-color: #483E3E;
+    margin-top: 48px;
+    overflow: hidden;
+}
+.bottom-links {
+    margin-top: 47px;
+    text-align: center;
+}
+.bottom-links-list {
+    display: inline-block;
+}
+.bottom-links-list li {
+    float: left;
+}
+.bottom-links-list li a {
+    padding: 0 26px;
+    border-right: 1px solid white;
+    color: white;
+}
+.bottom-links-list li:first-child a {
+    padding-left: 0;
+}
+.bottom-links-list li:last-child a {
+    padding-right: 0;
+    border: 0;
+}
+.copyright {
+    margin-top: 10px;
+    color: white;
+}
+/*页脚区end*/
